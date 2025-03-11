@@ -405,6 +405,7 @@
   
   .footer-nav {
     display: flex;
+    background-color: #666;
     justify-content: center;
     gap: 3rem;
     margin-bottom: 2rem;
@@ -412,7 +413,6 @@
   
   .footer-nav a {
     color: #111;
-    background-color: #666;
     text-decoration: none;
     font-weight: 600;
     font-size: 1.1rem;
