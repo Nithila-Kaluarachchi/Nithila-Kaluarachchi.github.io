@@ -358,61 +358,77 @@
   
   .contact-card {
     background-color: white;
-    border-radius: 20px;
-    padding: 2rem;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    border-radius: 30px;
+    padding: 2.5rem;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
     display: inline-flex;
-    gap: 2rem;
+    gap: 4rem;
     margin: 2rem auto;
+    min-width: 600px;
   }
   
   .contact-item {
     display: flex;
     align-items: center;
-    gap: 0.5rem;
-    color: #333;
+    gap: 1rem;
+    color: #111;
     text-decoration: none;
-    transition: transform 0.3s ease;
+    transition: all 0.3s ease;
+    font-size: 1.1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 15px;
   }
   
   .contact-item:hover {
     transform: translateY(-3px);
+    background-color: #f8f8f8;
   }
   
   .contact-item i {
     font-size: 1.5rem;
-    color: #ff6600;
+    color: #111;
+    width: 24px;
+    text-align: center;
+  }
+  
+  .contact-item span {
+    font-weight: 500;
   }
   
   /* Footer */
   .footer {
     background-color: white;
-    padding: 3rem 5%;
+    padding: 4rem 5%;
     text-align: center;
-    margin-top: 4rem;
+    margin-top: 6rem;
   }
   
   .footer-nav {
     display: flex;
     justify-content: center;
-    gap: 2rem;
+    gap: 3rem;
     margin-bottom: 2rem;
   }
   
   .footer-nav a {
-    color: #333;
+    color: #111;
     text-decoration: none;
-    font-weight: 500;
-    transition: color 0.3s ease;
+    font-weight: 600;
+    font-size: 1.1rem;
+    transition: all 0.3s ease;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
   }
   
   .footer-nav a:hover {
-    color: #ff6600;
+    background-color: #f8f8f8;
+    transform: translateY(-2px);
   }
   
   .copyright {
     color: #666;
-    font-size: 0.9rem;
+    font-size: 1rem;
+    font-weight: 500;
   }
   
   /* Responsive Design */
@@ -477,7 +493,14 @@
   
     .contact-card {
       flex-direction: column;
-      gap: 1rem;
+      gap: 2rem;
+      min-width: auto;
+      width: 90%;
+    }
+  
+    .footer-nav {
+      gap: 1.5rem;
+      flex-wrap: wrap;
     }
   }
   
@@ -508,5 +531,14 @@
       flex-direction: column;
       gap: 1rem;
     }
+  
+    .contact-card {
+      padding: 2rem 1rem;
+    }
+  
+    .contact-item {
+      font-size: 1rem;
+    }
   }
-    
+  
+  
