@@ -5,8 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
+    <!-- Navigation -->
     <nav>
         <a href="#" class="logo">Portfolio</a>
         <div class="nav-links">
@@ -17,6 +19,7 @@
         </div>
     </nav>
 
+    <!-- Hero Section -->
     <section class="hero">
         <img src="./images/Nithila-k.jpg" alt="Profile" class="profile-image">
         <div class="hero-content">
@@ -38,7 +41,8 @@
         </div>
     </section>
 
-    <main class="about-section">
+    <!-- About Me Section -->
+    <section class="about-section" id="about">
         <div class="section-header">
             <h3>Get To Know More</h3>
             <h2>About Me</h2>
@@ -47,10 +51,10 @@
         <div class="content-wrapper">
             <!-- Profile Image -->
             <div class="profile-image">
-                <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%20%286%29-e0aGYlKfHdX3NUXFbjJCRSSZSx71gx.png" alt="Profile Photo" id="profileImage">
+                <img src="/images/nithila.jpg" alt="Profile Photo">
             </div>
-            
-            <!-- Info Cards and Description -->
+
+            <!-- Info Section -->
             <div class="info-section">
                 <div class="cards-container">
                     <!-- Passionate Learner Card -->
@@ -64,14 +68,14 @@
                             <p>ML Enthusiast</p>
                         </div>
                     </div>
-                    
+
                     <!-- Education Card -->
                     <div class="card">
                         <div class="icon">
                             <i class="fas fa-user-graduate"></i>
                         </div>
                         <div class="card-content">
-                            <p class="card-title">Education</p>
+                            <h4>Education</h4>
                             <p>B.Sc. Information Technology</p>
                             <p>Software Engineering</p>
                             <p>Undergraduate</p>
@@ -79,7 +83,7 @@
                         </div>
                     </div>
                 </div>
-                
+
                 <!-- Bio Text -->
                 <div class="bio-text">
                     <p>
@@ -97,14 +101,7 @@
                 </div>
             </div>
         </div>
-        
-        <!-- Down arrow at bottom -->
-        <div class="scroll-down">
-            <div class="arrow-circle">
-                <i class="fas fa-chevron-down"></i>
-            </div>
-        </div>
-    </main>
+    </section>
 
     <script src="script.js"></script>
 </body>
