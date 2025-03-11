@@ -50,11 +50,13 @@ nav {
     gap: 4rem;
 }
 
+
 .profile-image {
     width: 300px;
     height: 300px;
-    border-radius: 50%;
-    object-fit: cover;
+    border-radius: 50%;  /* Ensures image is circular */
+    object-fit: cover;   /* Ensures the image maintains aspect ratio and fills the circle */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
 }
 
 .hero-content {
