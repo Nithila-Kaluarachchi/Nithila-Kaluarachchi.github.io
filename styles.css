@@ -162,14 +162,14 @@ nav {
     }
 }
 
-/* Profile image */
-.profile-image {
+/* Profile image for About section */
+.aboutme-image {
     width: 100%;
     max-width: 500px;
     margin: 0 auto;
 }
 
-.profile-image img {
+.aboutme-image img {
     width: 100%;
     height: auto;
     border-radius: 8px;
